@@ -1,7 +1,7 @@
 import { authOptions } from "@/libs/auth";
 import NextAuth, { AuthOptions } from "next-auth";
 
-const apiUrl = "https://whimsical-activity-8412sidkfj.strapiapp.com"; // Vervang dit met de daadwerkelijke URL van je Strapi-backend
+const apiUrl = "https://whimsical-activity-841245cb28.strapiapp.com"; // Vervang dit met de daadwerkelijke URL van je Strapi-backend
 
 const customOptions: AuthOptions = {
   ...authOptions, // Voeg eventuele bestaande opties toe vanuit authOptions
